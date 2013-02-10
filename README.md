@@ -1,4 +1,12 @@
-hash_bench
-==========
+# How to run benchmarks
 
-Benchmark creating and look-upping hash with ruby, topaz, python
+First, modify topaz path in hash_bench_topaz.sh:
+
+Now, run:
+
+$ ./hash_bench.sh
+$ ./hash_bench_topaz.sh
+$ ./hash_bench_python.sh
+
+# License
+MIT License
